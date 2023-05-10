@@ -1,0 +1,78 @@
+.container {
+	width: 500px;
+	margin: 0 auto;
+	background-color: #333333;
+	color: white;
+	display: grid;
+	grid-template-areas:
+	"header"
+	"text"
+	"time";
+}
+.header {
+	grid-area: header;
+	padding: 12px;
+	border: 1px solid #333333;
+}
+.text {
+	padding: 90px;
+	border: #0d0d0d solid;
+	background-color: #000000;
+	grid-area: text;
+}
+.procode {
+	text-align: center;
+}
+.FFE {
+	text-align: left;
+}
+.school {
+	text-align: left;
+}
+.time {
+	display: grid;
+	grid-template-areas:
+	"views peak total"
+	"chat avg duration"
+	".   dismiss edit" 
+	
+}
+.views {
+	grid-area: views;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+.peak {
+	grid-area: peak;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+.total {
+	grid-area: total;
+	padding-top: 20px;
+}
+.chat {
+	grid-area: chat;
+	padding-left: 30px;
+}
+.avg {
+	grid-area: avg;
+	padding-left: 30px;
+}
+.duration {
+	grid-area: duration;
+}
+.dismiss {
+	grid-area: dismiss;
+	padding-left: 150px;
+	color:#808080;
+	font-size: 14px;
+}
+.edit {
+	grid-area: edit;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	background-color: #0033cc;
+	font-size: 14px;
+}
